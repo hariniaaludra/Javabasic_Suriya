@@ -15,4 +15,4 @@ public void setName(String n)
 		System.out.println(ob.getName());
 	}
 
-}
+} 

@@ -12,3 +12,4 @@ public class Arr {
 		System.out.println(a[i]);  
 		}}  
 
+ 

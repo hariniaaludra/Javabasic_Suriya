@@ -10,3 +10,4 @@ System.out.println(obj.x);
 	}
 
 }
+ 
