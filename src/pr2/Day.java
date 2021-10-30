@@ -1,8 +1,8 @@
 package pr2;
-interface print{
-public abstract	void printday();
-}
-enum DayOfWeek implements print {
+
+import java.util.Scanner;
+
+enum DayOfWeek  {
     SUNDAY(1) , MONDAY(2), TUESDAY(3), WEDNESDAY(4), THURSDAY(5), FRIDAY(6), SATURDAY(7);
     private int dayNumber;
     DayOfWeek(int dayNumber) {
@@ -31,6 +31,7 @@ enum DayOfWeek implements print {
         default:
             return "Saturday";
         }
+    	
     }
 }
 
@@ -51,4 +52,8 @@ public class Day {
     public String toString() {
         return this.day.toString();
     }
-}
+    public static void main(String[]args) {
+    	 Scanner sc=new Scanner(System.in);
+   	  int daynumber =sc.nextInt();
+   	  System.out.println(Day);
+    }}
