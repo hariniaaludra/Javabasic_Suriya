@@ -1,16 +1,24 @@
 package Package1;
+	class Inheritance {
+		int i = 100;
+		int j;
 
-public class Inheritance {
-	int emid = 100;
-}
-
-class Subcls extends Inheritance {
-	int salary = 10000;
-
-	public static void main(String[] args) {
-		Subcls ob = new Subcls();
-		System.out.println(ob.emid);
-		System.out.println(ob.salary);
+		public void num() {
+			System.out.println(i);
+		}
 	}
 
-}
+	class sub extends Inheritance {
+		void num1(int a) {
+			i = a;
+			System.out.println(i);
+		}
+	}
+
+	class Mul extends Inheritance {
+		void multi(int b) {
+			j = b;
+			System.out.println(j);
+		}
+
+	}

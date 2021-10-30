@@ -1,5 +1,4 @@
 package pr2;
-import pr2.*;
 public class Classfile {
 	public static void main(String args[]) {
 		{sub d = new sub();
