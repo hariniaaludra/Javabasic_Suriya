@@ -5,7 +5,7 @@ public class Mc {
 
 }
  class Sec{
-	 public static void main(String args[]) {
+	 public static void main(String args[]) {// main function should be inside the main class
 		 Mc obj=new Mc();
 		 System.out.println(obj.x);
 		 

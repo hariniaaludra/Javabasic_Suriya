@@ -1,4 +1,4 @@
-package pr2;
+package pr2;// use standard package name
 
 public class Mod {
 	int x=10;

@@ -1,14 +1,14 @@
 package pr2;
 
-public class Ex {
+public class Ex { // give proper standard name for class
 	int a;
-		   Ex(int i) {
-		      a=i;
-		   }
-		   void display() {
-		      System.out.println(a);
-		   }
-		   public static void main(String[] args) {
+Ex(int i) {
+	a=i;
+	}
+void display() {
+	System.out.println(a);
+	}
+		   public static void main(String[] args) {// maintain proper structure
 		      Ex c = new Ex(5);
 		      Laptop l = new Laptop(5,6);
 		      c.display();

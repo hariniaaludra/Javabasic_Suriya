@@ -1,4 +1,4 @@
-package pr2;
+package pr2;// use standard package name
 interface exam1{
 	void show();	
 }

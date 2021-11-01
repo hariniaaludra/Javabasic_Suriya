@@ -2,7 +2,7 @@ package pr2;
 
 public class Cv { 
 	    int id;  
-	    String name;  
+	    String name; //  null value
 	    int age;  
 	    Cv(int i){  
 	    id = i;    

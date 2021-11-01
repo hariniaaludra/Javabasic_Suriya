@@ -1,7 +1,7 @@
 package pr2;
 
 public class Mad {
-	class Testarray5{  
+	class Testarray5{  // Wrong syntax
 		public static void main(String args[]){  
 		int a[][]={{1,3,4},{3,4,5}};  
 		int b[][]={{1,3,4},{3,4,5}};  

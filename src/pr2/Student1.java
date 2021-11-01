@@ -1,4 +1,4 @@
-package pr2;
+package pr2;// use standard package name
 
 public class Student1 {
 		int num;
@@ -12,7 +12,7 @@ public class Student1 {
 	public void mark() {
 		System.out.println(num);
 	}}
-	class S{
+	class S{//add full name
 		public static void main(String[]args) {
 			Student1 ob1=new Student1();
 			ob1.mark();

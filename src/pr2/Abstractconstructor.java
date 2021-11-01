@@ -13,9 +13,7 @@ class Bike extends Abstractconstruct {
 		public static void main(String[]args) {
 			Abstractconstruct  a= new Bike();
 			a.speed();
-			a.run();
-			
-			
+			a.run();	
 		}}
 		
 	

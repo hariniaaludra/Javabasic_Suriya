@@ -1,20 +1,20 @@
 package pr2;
 
 class Multi {
-	void mul() {
+	void mul() {// public void
 		System.out.println("this is multilevel inheritance");
 	}
 }
 
 class Subj extends Multi {
 
-	void base() {
+	void base() {//public void
 		System.out.println("this is extends from multilevel inheritance");
 	}
 }
 
 class Sub1 extends Subj {
-	void sub1() {
+	void sub1() {// public void
 		System.out.println("this is extends from multilevel inheritances");
 	}
 }

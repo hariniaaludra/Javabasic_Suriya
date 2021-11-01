@@ -1,6 +1,6 @@
 package pr2;
 
-class C {
+class C {//use proper standard name for classes
 	public void disp() {
 		System.out.println("C");
 	}

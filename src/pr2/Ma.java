@@ -1,6 +1,6 @@
 package pr2;
 
-public class Ma { 
+public class Ma { //use the proper name
 		public static void main(String args[]){   
 		int a[][]={{1,1,1},{2,2,2},{3,3,3}};    
 		int b[][]={{1,1,1},{2,2,2},{3,3,3}};    
