@@ -1,6 +1,6 @@
 package program2;
 
-class Inheritance {// use proper class name
+class Add {
 	int i = 100;
 	int j;
 
@@ -9,14 +9,14 @@ class Inheritance {// use proper class name
 	}
 }
 
-class Inherit extends Inheritance {
+class sub extends Add {
 	void num1(int a) {
 		i = a;
 		System.out.println(i);
 	}
 }
 
-class   extends Inheritance {
+class Mul extends Add {
 	void multi(int b) {
 		j = b;
 		System.out.println(j);
@@ -26,7 +26,7 @@ class   extends Inheritance {
 
 class Hierarchical {
 	public static void main(String args[]) {
-		Inherit d = new ();
+		sub d = new sub();
 		d.num();
 		d.num1(200);
 		Mul b = new Mul();
