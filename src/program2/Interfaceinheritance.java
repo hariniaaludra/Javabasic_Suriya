@@ -1,23 +1,23 @@
 package program2;
-interface value{
-	void method ();
+interface Value{
+	void statement ();
 }
-	interface val extends value{
-		void method1();
+	interface Values extends Value{
+		void block();
 	}
-public class Interfaceinheritance implements val{
-public	void method() {
+public class Interfaceinheritance implements Values{
+public	void statement() {
 		System.out.println("it is interface method");
 	}
-public 	void method1() {
+public 	void block() {
 		System.out.println("it is interface method1");
 	}
 	
 
 	public static void main(String[] args) {
-		Interfaceinheritance ob= new Interfaceinheritance();
-		ob.method();
-		ob.method1();
+		Interfaceinheritance obj= new Interfaceinheritance();
+		obj.statement();
+		obj.block();
 		
 
 	}

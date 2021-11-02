@@ -8,7 +8,7 @@ public class Iterators {
  car.add("bmw");
  car.add("ford");
  car.add("honda");
- Iterator it =car.iterator(); 
+ Iterator<String> it =car.iterator(); // use proper type
  while(it.hasNext()){
 	 System.out.println("after remove");
  System.out.println(it.next());

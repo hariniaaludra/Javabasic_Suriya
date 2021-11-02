@@ -1,14 +1,14 @@
 package program2;// use standard package name
-interface exam1{
+interface Player {
 	void show();	
 }
-interface exam2{
+interface Statement{
 	void print();	
 }
 
-public class Multipleinterface implements exam1,exam2 {
+public class Multipleinterface implements Player,Statement {
 	public void show() {
-		System.out.println("it's shows the value");
+		System.out.println("it's shows the player");
 	}
 	public void print() {
 		System.out.println("it's will print the value");
@@ -17,7 +17,7 @@ public class Multipleinterface implements exam1,exam2 {
 	public static void main(String[] args) {
 		Multipleinterface ob=new Multipleinterface();
 		ob.print();
-ob.show();
+        ob.show();
 	}
 
 }

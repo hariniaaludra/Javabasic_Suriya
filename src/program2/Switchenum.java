@@ -1,9 +1,9 @@
 package program2;
 
  public class Switchenum {
-enum climate {WINTER,SUMMER,FALL}
+enum Climate {WINTER,SUMMER,FALL}
 public static void main(String[] args) {
-climate sec=climate.WINTER;
+Climate sec=Climate.WINTER;
 	switch(sec) {
 	case SUMMER:
 		System.out.println("SUMMER");

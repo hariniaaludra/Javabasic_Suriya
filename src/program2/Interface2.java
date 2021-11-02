@@ -1,26 +1,26 @@
 package program2;
-interface example{
+interface Example{
 	void draw();
-default void method () { System.out.println("this is default method"); }
+default void shape () { System.out.println("this is default method"); }
 }
-class Interfa implements example{
+class Square implements Example{
 public void draw() {
 		System.out.println("draw square");
 	}
 }
-class Interfac implements example{
+class Rectangle implements Example{
 public 	void draw() {
 		System.out .println("draw rectangle");
 	}
 }
 public class Interface2 {
 	public static void main(String[] args) {
-example b=new Interfac();
-b.draw();
-b.method();
-example a=new Interfa();
-a.draw();
-a.method();
+Example obj=new Square();
+obj.draw();
+obj.shape();
+Example obj1=new Rectangle();
+obj1.draw();
+obj1.shape();
 	}
 
 }

@@ -1,20 +1,20 @@
 package program2;
-interface inter{
+interface Shape{
 	void print();
 	static int cube(int X) {
 		return X*X*X;
 	}
 }
 
-public class Interface implements inter {
+public class Interface implements Shape {
 	public void print ()
 	{System.out.println("this is interface");}
 
 	
 	public static void main(String[] args) {
-		inter ob=new Interface();
-		ob.print();
-		System.out.println(inter.cube(5));
+		Shape obj=new Interface();
+		obj.print();
+		System.out.println(Shape.cube(5));
 		
 	}
 

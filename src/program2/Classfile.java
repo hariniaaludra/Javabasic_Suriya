@@ -2,19 +2,20 @@ package program2;
 public class Classfile {
 	public static void main(String args[]) {
 		{
-			sub d = new sub();
-		d.num();
-		d.num1(200);
-		Mul b = new Mul();   //inheritance
-		b.multi(7);
+			Inherit d = new Inherit();
+			d.num();
+			d.num1(200);
+			Inheritsub b = new Inheritsub();
+			b.multi(7);
+
 		}
 		{
-	        System.out.println(Polymorphism.Multiply(2, 4));     //polymorphism
-	        System.out.println(Polymorphism.Multiply(2, 7, 3));
+	        System.out.println(Polymorphism.multiply(2, 4));     //polymorphism
+	        System.out.println(Polymorphism.multiply(2, 7, 3));
 	    }
 		{
-		Methodoverriding ob=new Riding();             //run-time polymorphism
-		ob.method();
+		Methodoverriding obj=new Riding();             //run-time polymorphism
+		obj.method();
 		}
 		
 		{

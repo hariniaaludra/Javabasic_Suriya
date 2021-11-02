@@ -8,14 +8,14 @@ public	class Inheritance {
 		}
 	}
 
-	class Sub extends Inheritance {
+	class Parent1 extends Inheritance {
 		void num1(int a) {
 			i = a;
 			System.out.println(i);
 		}
 	}
 
-	class Mul extends Inheritance {
+	class Child extends Inheritance {
 		void multi(int b) {
 			j = b;
 			System.out.println(j);

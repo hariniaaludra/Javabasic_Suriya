@@ -1,35 +1,35 @@
 package program2;
 
-class Hierarchical1 {//use proper standard name for classes
+class Hybridinherit {//use proper standard name for classes
 	public void disp() {
-		System.out.println("C");
+		System.out.println("Cat");
 	}
 }
 
-class Herarchical2 extends Hierarchical1 {
+class Subinherit extends Hybridinherit {
 	public void disp() {
 		System.out.println("A");
 	}
 }
 
-class Hierarchical3 extends Hierarchical1 {
+class Inheritchild extends Hybridinherit {
 	public void disp() {
 		System.out.println("B");
 	}
 
 }
 
-class Singleinheritance extends Hierarchical1 {
+class Singleinheritance extends Hybridinherit {
 	public void disp() {
-		System.out.println("D");
+		System.out.println("Dog");
 	}
 }
 
 public class Hybrid {
 	public static void main(String args[]) {
-		Hierarchical1 ob = new Hierarchical1();
-		ob.disp();
-		Singleinheritance obj = new Singleinheritance();
+		Hybridinherit obj = new Hybridinherit();
 		obj.disp();
+		Singleinheritance obj1 = new Singleinheritance();
+		obj1.disp();
 	}
 }

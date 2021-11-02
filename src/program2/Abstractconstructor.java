@@ -11,9 +11,9 @@ class Bike extends Abstractconstruct {
 	}}
 	class Abstractconstructor {
 		public static void main(String[]args) {
-			Abstractconstruct  a= new Bike();
-			a.speed();
-			a.run();	
+			Abstractconstruct  obj= new Bike();
+			obj.speed();
+			obj.run();	
 		}}
 		
 	

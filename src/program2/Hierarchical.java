@@ -1,6 +1,6 @@
 package program2;
 
-class Add {
+class Inheritance {
 	int i = 100;
 	int j;
 
@@ -9,14 +9,14 @@ class Add {
 	}
 }
 
-class sub extends Add {
+class Inherit extends Inheritance {
 	void num1(int a) {
 		i = a;
 		System.out.println(i);
 	}
 }
 
-class Mul extends Add {
+class Inheritsub extends Inheritance {
 	void multi(int b) {
 		j = b;
 		System.out.println(j);
@@ -26,11 +26,11 @@ class Mul extends Add {
 
 class Hierarchical {
 	public static void main(String args[]) {
-		sub d = new sub();
-		d.num();
-		d.num1(200);
-		Mul b = new Mul();
-		b.multi(7);
+		Inherit obj = new Inherit();
+		obj.num();
+		obj.num1(200);
+		Inheritsub obj1 = new Inheritsub();
+		obj1.multi(7);
 
 	}
 

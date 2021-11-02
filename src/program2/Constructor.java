@@ -10,10 +10,10 @@ void display() {
 	System.out.println(a);
 	}
 public static void main(String[] args) {// maintain proper structure
-Constructor c = new Constructor(5);
+Constructor obj = new Constructor(5);
 Laptop l = new Laptop(5,6);
-c.display();
-l.laptop_method();
+obj.display();
+l.laptopmethod();
  }
 }
 class Laptop {
@@ -23,7 +23,7 @@ Laptop(int i,int c) {
 a=i;
 b=c;
 }
-void laptop_method() {
+void laptopmethod() {
 System.out.println(a+" "+b);
 }
 }
