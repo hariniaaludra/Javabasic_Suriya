@@ -12,7 +12,7 @@ abstract class Book{
       title = s;
     }
 }
-public class Abstracttest{
+public class Abstracttest1{
 	
 	public static void main(String []args){
 		Scanner sc=new Scanner(System.in);
