@@ -40,7 +40,7 @@ public class Operators {
         System.out.println("Car's price is lesser than the money in the bank: " + (price < moneyInTheBank));
         System.out.println("Car's price is greater than or equals the money in the bank: " + (price >= moneyInTheBank));
         System.out.println("Car's price is lesser or equals than the money in the bank: " + (price <= moneyInTheBank));
-        System.out.println("The carModel variable's datatype is a String: " + (carModel instanceof String));
+        System.out.println("The carModel variable's datatype is a String: " + (carModel instanceof  String));
         System.out.println();
 
         String damagedText = isDamaged ? "The car is damaged" : "The car isn't damaged";
@@ -63,14 +63,7 @@ public class Operators {
         price %= 10000;
         System.out.println("Price remained: €" + price);
        
-        int a=-1;  
-        int b=-10;  
-        boolean c=true;  
-        boolean d=false;  
-        System.out.println(~a);//-11 (minus of total positive value which starts from 0)  
-        System.out.println(~b);//9 (positive of total minus, positive starts from 0)  
-        System.out.println(!c);//false (opposite of boolean value)  
-        System.out.println(!d);
+        
 
     }
 
