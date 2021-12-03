@@ -3,29 +3,29 @@ package com.beginner.udemy.encapsulation;
 import java.util.Random;
 
 public class Car {
-	private byte numberOfSeats = 5;
-	    private byte numberOfDoors = 3;
-	    private byte numberOfVehicleOwners = 1;
-	    private byte emissionSticker = 4;
+	private byte numberOfSeats ;
+	    private byte numberOfDoors ;
+	    private byte numberOfVehicleOwners ;
+	    private byte emissionSticker;
 
-	    private short power = 362;
-	    private short horsePower = 492;
-	    private short co2Emission = 333;
-	    private short cubicCapacity = 6417;
+	    private short power ;
+	    private short horsePower ;
+	    private short co2Emission ;
+	    private short cubicCapacity ;
 
-	    private int price = 29999;
-	    private int mileage = 14999;
+	    private int price ;
+	    private int mileage ;
 
-	    private long registrationNumber = 134513532145234553L;
+	    private long registrationNumber ;
 
-	    private float fuelConsumptionCombined = 15.5F;
-	    private float fuelConsumptionUrban = 21.4F;
-	    private float fuelConsumptionExtraUrban = 13.6F;
+	    private float fuelConsumptionCombined;
+	    private float fuelConsumptionUrban;
+	    private float fuelConsumptionExtraUrban;
 
-	    private double fuelConsumptionPreciseAverage = 153.2452345234525E-1;
+	    private double fuelConsumptionPreciseAverage;
 
-	    private boolean isDamaged = true;
-	    private char energyEfficiencyCategory = 'G';
+	    private boolean isDamaged ;
+	    private char energyEfficiencyCategory;
 
 	    private String color;
 	    private String carName;
@@ -49,7 +49,7 @@ public class Car {
 	        System.out.println("The engine is started.");
 	    }
 
-	   public void getDescription(){
+	 /* void getDescription(){
 	        System.out.println("A " + color + " " + carName + " is created.");
 	        System.out.println("Price: €" + price);
 	        System.out.println("Mileage: " + mileage + "km");
@@ -66,7 +66,7 @@ public class Car {
 	        System.out.println("Number of previous owners: " + numberOfVehicleOwners);
 	        System.out.println("Number of doors: " + numberOfDoors);
 	        System.out.println("Number of seats: " + numberOfSeats);
-	   }
+	   }*/
 	    public int getPrice() {
 	        return price;
 	    }
@@ -85,6 +85,6 @@ public class Car {
 
 	    public String getCarName() {
 	        return carName;
-	    }
+	   }
 
 }

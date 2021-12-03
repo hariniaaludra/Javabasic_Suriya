@@ -21,7 +21,7 @@ public class AthleteApp {
 	        }
 
 	        FootballPlayer tom = new FootballPlayer("Tom Brady", "Tom Terrific", 1977, "Tampa Bay", 285, 9988, 6377);
-	        tom.increaseCompletions(35);
+	        tom.increaseCompletions(10);
 	        tom.increasePassingYards(17);
 	        FootballPlayer ed = new FootballPlayer("Ed Brady", "Ed Terrific", 1979, "New England Patriots", 265, 8988, 4377);
 	        ed.setTeam("Tampa Bay");
