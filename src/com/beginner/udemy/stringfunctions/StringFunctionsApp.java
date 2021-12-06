@@ -19,7 +19,7 @@ public class StringFunctionsApp {
         } else {
             System.out.println("The text typed in is: " + inputText);
         }
-
+        System.out.println("The input text contains Par." +inputText.contains("Par"));
         if (inputText.contains("Par")) {
             System.out.println("The input text contains Par.");
         }
