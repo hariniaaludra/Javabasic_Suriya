@@ -28,7 +28,7 @@ public class PizzaWebshopApp {
         LocalDateTime realDeliveryDateTime = orderDateTime.plusMinutes(90);
         System.out.println("The real delivery time was: " + realDeliveryDateTime);
 
-        long differenceBetweenEstimatedAndReal = ChronoUnit.MINUTES.between(estimatedDeliveryDateTime, realDeliveryDateTime);
+        long differenceBetweenEstimatedAndReal = ChronoUnit.DAYS.between(estimatedDeliveryDateTime, realDeliveryDateTime);
         System.out.println("Difference: " + differenceBetweenEstimatedAndReal + " in minutes");
 
         if (estimatedDeliveryDateTime.isBefore(realDeliveryDateTime)) {
@@ -46,6 +46,12 @@ public class PizzaWebshopApp {
         System.out.println("The time I ordered pizza was " + myLocalDateTime + " in Budapest.");
         ZonedDateTime tokioDateTime = myLocalDateTime.withZoneSameInstant(ZoneId.of("Asia/Tokyo"));
         System.out.println("The time I ordered pizza was " + tokioDateTime + " in Tokyo.");
+
+//        ZoneIds list
+//        for (String zoneId : ZoneId.getAvailableZoneIds()) {
+//            System.out.println(zoneId);
+//        }
+
 
 
 

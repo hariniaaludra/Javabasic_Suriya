@@ -4,10 +4,10 @@ public class MathFunctionsApp {
 
     public static void main(String[] args) {
 
-        double temperatureYesterday = 5.9;
+        double temperatureYesterday = -5.3;
         double temperatureToday = -Math.random() * 10;
 
-        System.out.println("Absolute temperature today: " + Math.abs(temperatureToday));
+        System.out.println("Absolute temperature today: " + Math.abs(temperatureYesterday));
         System.out.println("Min: " + Math.min(temperatureToday, temperatureYesterday));
         System.out.println("Max: " + Math.max(temperatureToday, temperatureYesterday));
         System.out.println("Round: " + Math.round(temperatureToday));
